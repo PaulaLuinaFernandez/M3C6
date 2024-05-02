@@ -4,3 +4,8 @@ class Usuario:
         self.contrasena = contrasena
 
 usuario_uno = Usuario("Paula", "Password")
+
+
+print(f'Nombre de usuario: {usuario_uno.nombre_usuario}')
+print(f'Contrasena: {usuario_uno.contrasena}')
+
